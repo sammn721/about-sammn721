@@ -12,6 +12,7 @@
 .sectionRow {
     display: flex;
     justify-content: flex-end;
+    margin: 50px 50px 50px 50px;
 }
 
 @media screen and (max-width: 992px) {
