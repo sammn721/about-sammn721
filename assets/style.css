@@ -2,7 +2,13 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header {
+    background-color: darkorange;
+}
 
+section {
+    background-color: darkcyan;
+}
 
 .spacedOut {
     display: flex;
