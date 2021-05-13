@@ -2,6 +2,14 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+:root {
+
+}
+
+h1 {
+
+}
+
 header {
     background-color: darkorange;
 }
@@ -21,7 +29,7 @@ section p {
     background-color: fuchsia;
 }
 
-.spacedOut {
+.headerSpace {
     display: flex;
     justify-content: space-between;
 }
@@ -38,7 +46,7 @@ section p {
 }
 
 @media screen and (max-width: 992px) {
-    .spacedOut {
+    .headerSpace {
         align-items: center;
         flex-direction: column;
     }
