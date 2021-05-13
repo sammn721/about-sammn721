@@ -6,7 +6,11 @@ header {
     background-color: darkorange;
 }
 
-nav
+header h1 {
+    background-color: paleturquoise;
+}
+
+/* nav  */
 
 section {
     background-color: darkcyan;
@@ -29,8 +33,7 @@ section p {
 
 .sectionContent {
     display: flex;
-    width: 75%;
-    
+    width: 75%;  
 }
 
 @media screen and (max-width: 992px) {
