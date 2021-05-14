@@ -45,6 +45,8 @@ section p {
     background-color: var(--sand);
     border-left: solid;
     border-color: var(--stone);
+    padding-left: 5px;
+    margin-left: 5px;
 }
 
 .headerSpace {
@@ -63,9 +65,16 @@ section p {
     width: 75%;  
 }
 
+/* .sectionContent.card.main {
+
+} */
+
 @media screen and (max-width: 992px) {
     .headerSpace {
         align-items: center;
+        flex-direction: column;
+    }
+    .sectionRow {
         flex-direction: column;
     }
 }
