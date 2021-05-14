@@ -186,7 +186,12 @@ h4 {
         margin-top: 5px;
     }
     .card {
-        flex: 0 0 100%
+        flex: 0 0 100%;
+    }
+    .card:first-child {
+        height: 100px;
+        background-size: 150%;
+        background-position: 0% 70%;
     }
     .sectionContent ul {
         display: flex;
