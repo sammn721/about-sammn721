@@ -52,8 +52,9 @@ section {
     padding-left: 5px;
     margin-left: 5px;
     display: flex;
-    width: 75%;
-    flex-flow: column wrap;
+    flex: 0 0 75%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .sectionRow {
@@ -63,8 +64,14 @@ section {
 }
 
 .card {
-    flex: 0 0 100px;
+    flex: 0 0 calc(50% - 5px);
     border:solid;
+    padding: 50px;
+    margin: 5px 0 5px;
+}
+
+.card:first-child{
+    flex: 0 0 100%;
 }
 
 @media screen and (max-width: 768px) {
