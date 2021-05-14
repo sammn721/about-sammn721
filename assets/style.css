@@ -11,7 +11,6 @@
 html {
     color: var(--stone);
     background-color: var(--sand);
-
 }
 
 body {
@@ -43,6 +42,13 @@ li {
     justify-content: space-between;
 }
 
+.hero {
+    height: 250px;
+    background-image: url("../assets/images/IMG_1749.JPG");
+    background-size: cover;
+    background-position: 0% 95%;
+}
+
 h2 {
     font-size: 1.8rem;
 }
@@ -72,7 +78,7 @@ section {
     display: flex;
     flex: 0 0 calc(50% - 5px);
     height: 100px;
-    border:solid;
+    border:solid var(--sky);
     margin: 5px 0 5px;
     justify-content: flex-start;
     align-items: flex-end;
