@@ -34,19 +34,37 @@ nav {
 
 li {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    border-bottom: solid var(--sky);
+    padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--sky);
 }
 
 .headerSpace {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .hero {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     height: 250px;
     background-image: url("../assets/images/IMG_1749.JPG");
     background-size: cover;
     background-position: 0% 95%;
+    
+}
+
+.hero p {
+    padding: 10px;
+    margin: 0 25px 10px;
+    background-color: var(--sky);
 }
 
 h2 {
