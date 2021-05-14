@@ -32,14 +32,14 @@ nav {
     margin-right: 25px;
 }
 
-li {
+nav ul li {
     display: inline-block;
     font-size: 1.1rem;
     border-bottom: solid var(--sky);
     padding: 5px;
 }
 
-a:link {
+nav ul li a:link {
     text-decoration: none;
     color: var(--sky);
 }
@@ -121,6 +121,17 @@ h3 {
 h4 {
     font-size: .7rem;
     margin-top: 10px;
+}
+.sectionContent ul li {
+    display: inline-block;
+    font-size: 1.1rem;
+    border-bottom: solid var(--stone);
+    padding: 5px;
+}
+
+.sectionContent ul li a:link {
+    text-decoration: none;
+    color: var(--stone);
 }
 
 @media screen and (max-width: 768px) {
