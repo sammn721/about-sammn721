@@ -3,23 +3,34 @@
 }
 
 :root {
-
-}
-
-h1 {
-
+    --sand: navajowhite;
+    --stone: slategrey;
+    --sky: lightcyan;
 }
 
 header {
-    background-color: darkorange;
+    background-color: var(--stone);
+    padding: 10px 0 10px;
 }
 
-header h1 {
-    padding-left: 25px;
-    background-color: paleturquoise;
+h1 {
+    font-size: 2rem;
+    padding: 5px 5px 5px 25px;
+    background-color: var(--sky);
 }
 
-/* nav  */
+h2 {
+    font-size: 1.8rem;
+}
+
+nav {
+    margin-right: 25px;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5rem;
+}
 
 section {
     background-color: darkcyan;
