@@ -61,9 +61,11 @@ section {
     margin: 25px;
 }
 
-.sectionContent.card {
-    flex-basis: 200px;
+.card {
+    flex: 0 0 400px;
     border:solid;
+    padding: 20px;
+    flex-flow: column wrap;
 }
 
 @media screen and (max-width: 768px) {
