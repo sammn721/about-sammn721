@@ -82,6 +82,7 @@ main {
     display: flex;
     justify-content: flex-end;
     margin: 25px;
+    width: 100%;
 }
 
 /* Section heading */
@@ -99,6 +100,7 @@ h2 {
     flex: 0 0 75%;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 
 /* Projects */
@@ -110,8 +112,6 @@ h2 {
     margin: 5px 0 5px;
     align-items: flex-end;
 }
-
-
 
 /* Project 1 */
 .card:first-child {
@@ -188,7 +188,7 @@ h4 {
     }
     main {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         max-width: 500px;
     }
     .sectionRow {
