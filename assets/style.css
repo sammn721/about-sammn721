@@ -59,7 +59,7 @@ nav ul li a:link {
     justify-content: flex-end;
     align-items: flex-end;
     height: 250px;
-    background-image: url("../assets/images/IMG_1752.JPG");
+    background-image: url("./images/IMG_1752.JPG");
     background-size: cover;
     background-position: 0% 100%;
     
@@ -82,7 +82,6 @@ main {
     display: flex;
     justify-content: flex-end;
     margin: 25px;
-    width: 100%;
 }
 
 /* Section heading */
@@ -119,8 +118,9 @@ h2 {
     flex-basis: 100%;
     height:300px;
 }
+
 /* Project 1 img */
-.cardImage:first-child {
+.cardImage {
     min-width: 100%;
     max-height: 100%;
     object-fit: cover;
@@ -195,6 +195,7 @@ h4 {
         flex-direction: column;
         align-items: flex-start;
         flex-basis: 100%;
+        width:100%;
     }
     .sectionContent {
         border-left: none;
