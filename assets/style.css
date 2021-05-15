@@ -22,16 +22,18 @@ header {
     padding: 10px 0 10px;
 }
 
+/* Name in header */
 h1 {
     font-size: 2.5rem;
     padding: 5px 5px 5px 25px;
     background-color: var(--sky);
 }
 
+/* Navigation section */
 nav {
     margin-right: 25px;
 }
-
+/* Navigation links */
 nav ul li {
     display: inline-block;
     font-size: 1.1rem;
@@ -44,12 +46,14 @@ nav ul li a:link {
     color: var(--sky);
 }
 
+/* Spacing between h1 and nav */
 .headerSpace {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
+/* Hero image */
 .hero {
     display: flex;
     justify-content: flex-end;
@@ -60,7 +64,7 @@ nav ul li a:link {
     background-position: 0% 100%;
     
 }
-
+/* Hero image caption */
 .hero p {
     padding: 10px;
     margin: 0 25px 10px;
@@ -73,14 +77,19 @@ main {
     flex-direction: column;
 }
 
+/* Main sections */
+.sectionRow {
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px;
+}
+
+/* Section heading */
 h2 {
     font-size: 2.4rem;
 }
 
-section {
-    background-color: var(--sand);
-}
-
+/* Section content */
 .sectionContent {
     background-color: var(--sand);
     border-left: solid var(--stone);
@@ -92,12 +101,7 @@ section {
     justify-content: space-between;
 }
 
-.sectionRow {
-    display: flex;
-    justify-content: flex-end;
-    margin: 25px;
-}
-
+/* Projects */
 .card {
     display: flex;
     flex: 0 0 calc(50% - 5px);
@@ -107,12 +111,15 @@ section {
     align-items: flex-end;
 }
 
+
+
+/* Project 1 */
 .card:first-child {
     display: flex;
     flex-basis: 100%;
     height:300px;
 }
-
+/* Project 1 img */
 .cardImage:first-child {
     min-width: 100%;
     max-height: 100%;
@@ -120,22 +127,25 @@ section {
     object-position: 0 95%;
 }
 
+/* Project title */
 .cardName {
     position: absolute;
     padding: 10px;
     background-color: var(--sky);
     margin-bottom: 10px;
 }
-
+/* Title heading */
 h3 {
     font-size: 1.1rem;
     font-weight: bold;
 }
-
+/* Tiny print */
 h4 {
     font-size: .7rem;
     margin-top: 10px;
 }
+
+/* Contact links */
 .sectionContent ul li {
     display: inline-block;
     font-size: 1.1rem;
@@ -148,7 +158,9 @@ h4 {
     border-bottom: solid var(--stone);
 }
 
+/* Mobile screens */
 @media screen and (max-width: 768px) {
+    /* Column to mimic mockup... am I doin' it right? */
     body {
         display: flex;
         flex-direction: column;
@@ -158,7 +170,7 @@ h4 {
         padding: 0 0 10px;
         width: 100%;
     }
-    h1{
+    h1 {
         padding: 5px 0 5px;
         width: 100%;
         text-align: center;
