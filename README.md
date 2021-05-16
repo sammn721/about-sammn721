@@ -6,6 +6,7 @@ sammn721's Homepage
 -This page will be one of the main ways I can present myself professionally moving forward.<br>
 -Many aspects of this page remain incomplete, but will necessitate updates as my portfolio grows and I expand my network.<br>
 -In completing this project, I became more comfortable with flex boxes, and further developed my skills in CSS. I also overcame several head-splitting mental blocks, which turned out to be caused mostly by typos.<br>
+<!-- (temporary change to push page rebuild) -->
 
 ## Usage
 -Navigation bar links will take the user to the respective section (with the exception of 'Resume').<br>
