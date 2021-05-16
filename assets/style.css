@@ -86,7 +86,6 @@ main {
 
 /* Section heading */
 .sectionHeading {
-    display:flex;
     max-width: 15%;
     text-align: right;
 }
@@ -212,6 +211,9 @@ h4 {
         align-items: flex-start;
         flex-basis: 100%;
         width:100%;
+    }
+    .sectionHeading {
+        max-width: none;
     }
     .sectionContent {
         border-left: none;
