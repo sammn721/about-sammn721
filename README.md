@@ -8,7 +8,7 @@ sammn721's Homepage
 -In completing this project, I became more comfortable with flex boxes, and further developed my skills in CSS. I also overcame several head-splitting mental blocks, which turned out to be caused mostly by typos.<br>
 
 ## Usage
--Navigation bar links will take the user to the respective section (with the exception of 'Resume').<br>
+-Navigation bar links will take the user to the respective section, with the exception of 'Resume'.<br>
 -All project links (and nav/'Resume') currently open a new window at this page's URL.<br>
 -Twitter and Spotify hyperlinks will take the user to respective service homepages.<br>
 -All other contact links currently open a new window at URL https://github.com/sammn721.<br>
