@@ -25,13 +25,13 @@ header {
 /* Name in header */
 h1 {
     font-size: 2.5rem;
-    padding: 5px 5px 5px 25px;
+    padding: 5px 5px 5px 50px;
     background-color: var(--sky);
 }
 
 /* Navigation section */
 nav {
-    margin-right: 25px;
+    margin-right: 50px;
 }
 /* Navigation links */
 nav ul li {
@@ -67,7 +67,7 @@ nav ul li a:link {
 /* Hero image caption */
 .hero p {
     padding: 10px;
-    margin: 0 25px 10px;
+    margin: 0 50px 10px;
     background-color: var(--sky);
     font-size: 1.5rem;
     font-weight: bold;
@@ -87,7 +87,7 @@ main {
 
 /* Section heading */
 .sectionHeading {
-    min-width: 25%;
+    max-width: 140px;
     text-align: right;
 }
 h2 {
@@ -165,7 +165,8 @@ h4 {
 .sectionContent ul li {
     display: inline-block;
     font-size: 1.1rem;
-    padding: 5px;
+    padding: 25px 5px 25px 5px;
+    align-items: flex-end;
 }
 
 .sectionContent ul li a:link {
