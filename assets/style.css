@@ -3,9 +3,9 @@
 }
 
 :root {
-    --sand: beige;
-    --stone: slategrey;
-    --sky: lightcyan;
+    --sand: rgb(255, 214, 186);
+    --stone: rgb(85, 91, 110);
+    --sky: rgb(190, 227, 219);
 }
 
 html {
@@ -61,7 +61,7 @@ nav ul li a:link {
     height: 300px;
     background-image: url("images/IMG_1752.jpg");
     background-size: cover;
-    background-position: 0% 100%;
+    background-position: 0 100%;
     
 }
 /* Hero image caption */
@@ -85,6 +85,11 @@ main {
 }
 
 /* Section heading */
+.sectionHeading {
+    display:flex;
+    max-width: 15%;
+    text-align: right;
+}
 h2 {
     font-size: 2.4rem;
 }
