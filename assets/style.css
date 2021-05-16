@@ -124,7 +124,7 @@ h2 {
     min-width: 100%;
     max-height: 100%;
     object-fit: cover;
-    object-position: 0 0;
+    object-position: 0 10%;
 }
 /* Project 1 img */
 .card.cardImage:first-child {
@@ -217,6 +217,9 @@ h4 {
     }
     .card:first-child {
         height: 100px;
+    }
+    .cardImage {
+        object-position: 0 10%;
     }
     .sectionContent ul {
         display: flex;
