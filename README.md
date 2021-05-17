@@ -9,9 +9,9 @@ sammn721's Homepage
 
 ## Usage
 -Navigation bar links will take the user to the respective section (with the exception of 'Resume').<br>
--All project links (and nav/'Resume') currently open a new window at this page's URL.<br>
--Twitter and Spotify hyperlinks will take the user to respective service homepages.<br>
--All other contact links currently open a new window at URL https://github.com/sammn721.<br>
+-All project links (and nav/'Resume') currently will open a new window at this page's URL, https://sammn721.github.io.<br>
+-Twitter and Spotify hyperlinks will open a new window at the respective service homepages.<br>
+-All other contact links currently will open a new window at URL https://github.com/sammn721.<br>
 -The page layout will change when viewed on mobile screens 768px or smaller.<br>
 https://samm721.github.io
 ![alt text](assets/images/About-Sam.png)
