@@ -13,6 +13,6 @@ sammn721's Homepage
 -Twitter and Spotify hyperlinks will open a new window at the respective service homepages.<br>
 -All other contact links currently will open a new window at URL https://github.com/sammn721.<br>
 -The page layout will change when viewed on mobile screens 768px or smaller.<br>
-https://samm721.github.io
+https://sammn721.github.io
 ![alt text](assets/images/About-Sam.png)
 ![alt text](assets/images/About-Sam-mobile.png)
